@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<br />
+
+<div class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider">
+        <img src="@Url.Content("~/Content/Images/HoliBanner.jpg")" alt=""/>
+        <a href=""><img src="@Url.Content("~/Content/Images/Pictures_Slider.jpg")" alt="" title="" /></a>
+        <img src="@Url.Content("~/Content/Images/nepali class.jpg")" alt="" title="" />
+        <img src="@Url.Content("~/Content/Images/Calendar.jpg")" alt="" title="" />
+        @*<iframe src="http://nepalicalendar.rat32.com/embed/index.php" style="width:990px; height:350px"></iframe>*@
+    </div>
+</div>
+<div id="htmlcaption" class="nivo-html-caption">
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+</div>
+
+<div class = "NewsFeed">
+        NAUT would like to proudly announce that, we have now been registered under Section501(c)(3) as a NON-PROFIT Organization.
+ </div>
+   
+         <div class = "Sponsors">
+            <a href="http://bigdaddyspizza.com/" target="_blank">
+                <img alt = "BigDaddy" src="../../Content/Images/big_daddy_anim.gif" style="width:193px; height:100px; border:1px solid gray; margin-right:4px"/>
+            </a>
+        </div>
+        <div class = "Sponsors">
+                <img alt = "BigKahuna" src="../../Content/Images/big_kahuna_anim.gif" style="width:192px; height:100px; border:1px solid gray; margin-right:4px"/>
+        </div>
+        <div class = "Sponsors">
+            <a href="http://www.browspa24.com/" target="_blank">
+                <img alt = "EyeBrow" src="../../Content/Images/eyebrowspa_logo.jpeg" style="width:192px; height:100px; border:1px solid gray; margin-right:4px"/>
+            </a>
+        </div>
+        <div class = "Sponsors">
+            <img alt = "ShopAndGo" src="../../Content/Images/shopngo.jpeg" style="width:192px; height:100px; border:1px solid gray; margin-right:4px;"/> 
+        </div>
+        <div class = "Sponsors" style="float:right">
+            <a href="http://www.himalayankitchen.com/" target="_blank">
+                <img alt = "HimKitchen" src="../../Content/Images/Himalayan_kitchen_logo.jpeg" style="width:193px; height:100px; border:1px solid gray;float:right"/>
+             </a>
+        </div>
+
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider();
+    });
+</script>

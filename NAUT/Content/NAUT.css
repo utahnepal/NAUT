@@ -1,0 +1,134 @@
+﻿.Content
+{
+    color:White;
+    font-family:Tahoma;
+    font-size:100%; 
+}
+
+.DocumentContent
+{
+    color:Black;
+    font-family:Verdana;
+    font-size:100%;
+    margin-left:5px;
+    margin-top:5px;
+    border: 2px Solid #868686;
+    background-color:#D8D8D8;
+    margin-right:75%;
+}
+
+.EventsContent
+{
+    color:White;
+    font-family:Georgia;
+    font-size:28px;
+    text-align:center;
+    margin-top:200px;
+    margin-bottom:200px;
+   
+    
+   
+}
+
+.NAUTMenu
+{
+    list-style:none;
+    width:100%;
+}
+
+
+.NAUTMenu li
+{
+    float:left;
+    background:#2e2e2e;/*#454545;*/
+    padding:10px 0px 10px 0px;
+}
+
+.NAUTMenu li a
+{
+    text-decoration :none; 
+    padding:10px 30px 10px 30px;
+    cursor:pointer; 
+    font-weight:normal;
+    color:white;
+    font-family:Verdana;
+    font-size:15px;
+}
+
+.NAUTMenu li a:hover
+{
+    text-decoration :none;  
+    
+}
+
+.NAUTMenu li:hover
+{
+    background:#810000;
+    border-top:2px solid #810000;
+    border-bottom:2px solid white;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+}
+
+.NAUTMenuSelected
+{
+    list-style:none;
+    width:100%;
+}
+
+.NAUTMenuSelected li
+{
+    float:left;
+    background:#ba0000;
+    padding:10px 0px 10px 0px;
+    
+}
+
+.NAUTMenuSelected li a
+{
+    text-decoration :none; 
+    padding:10px 30px 10px 30px;
+    cursor:pointer; 
+    font-weight:bold;
+    color:white;
+}
+
+.NAUTMenuSelected li a:hover
+{
+    text-decoration :none;  
+}
+
+.NAUTMenuSelected li:hover
+{
+    background:#bfbfbf;
+}
+
+
+.Sponsors
+{
+    padding:5px 0px 0px 0px;
+    cursor:pointer;
+    opacity:.75;
+    float:left;
+}
+
+.Sponsors:hover
+{
+    opacity:1;
+}
+
+.NewsFeed
+{
+    background-color:Black;
+    border:1px solid White;
+    padding:5px 5px 5px 5px;
+    color:white;
+}
+
+/* # for dic id*/
+#DocumentDetail
+{
+    
+}
+
+
