@@ -5,17 +5,8 @@
     font-size:100%; 
 }
 
-.DocumentContent
-{
-    color:Black;
-    font-family:Verdana;
-    font-size:100%;
-    margin-left:5px;
-    margin-top:5px;
-    border: 2px Solid #868686;
-    background-color:#D8D8D8;
-    margin-right:75%;
-}
+
+
 
 .EventsContent
 {
@@ -125,10 +116,60 @@
     color:white;
 }
 
+.DocumentContent
+{
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-size:14px;
+    margin-top:5px;
+    margin-left:10px;
+   /* margin-right:75%;*/
+    float:left;
+}
 /* # for dic id*/
 #DocumentDetail
 {
-    
+    background:White;
+    font-size:32px;
+    text-align:center;
+    color:#E60000;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    margin:0px 5px 0px 5px;
+}
+
+#DocumentRest
+{
+    font-size:16px;
+    text-align:center;
+    test-indent:20px;
+    color:Black;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    background:White;
+    border:1px dotted grey;
+    margin:5PX 5PX 5PX 5PX;
+}
+
+#AboutDetail
+{
+    font-size:28px;
+    text-align:center;
+    color:#A30000;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    margin:0px 5px 0px 5px; 
 }
 
 
+.AboutContent
+{
+    color:White;
+    border:2px double #3A3A32;
+    text-indent:20px;
+    text-align:center;
+    margin:5px 10px 5px 25%;
+    
+}
+
+.AboutLeft
+{
+    float:left;
+    
+}

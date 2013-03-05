@@ -132,7 +132,6 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
-    <Compile Include="Controllers\DirectoryController.cs" />
     <Compile Include="Controllers\DocumentsController.cs" />
     <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -159,6 +158,7 @@
     <Content Include="Content\Images\Calendar.jpg" />
     <Content Include="Content\Images\dev7logo.png" />
     <Content Include="Content\Images\DiscountAsp.jpg" />
+    <Content Include="Content\Images\Document.jpg" />
     <Content Include="Content\Images\eyebrowspa_logo.jpeg" />
     <Content Include="Content\Images\facebook.png" />
     <Content Include="Content\Images\gun_metal.png" />
@@ -166,15 +166,13 @@
     <Content Include="Content\Images\HoliBanner.jpg" />
     <Content Include="Content\Images\loading.gif" />
     <Content Include="Content\Images\NAUTBannerNew.jpg" />
-    <Content Include="Content\Images\nemo.jpg" />
     <Content Include="Content\Images\nepali class.jpg" />
     <Content Include="Content\Images\Pictures_Slider.jpg" />
     <Content Include="Content\Images\Pictures_Slider1.jpg" />
+    <Content Include="Content\Images\red-grunge-background.jpg" />
     <Content Include="Content\Images\shopngo.jpeg" />
     <Content Include="Content\Images\spicebistro_logo.jpeg" />
     <Content Include="Content\Images\toystory.jpg" />
-    <Content Include="Content\Images\up.jpg" />
-    <Content Include="Content\Images\walle.jpg" />
     <Content Include="Content\Images\youtube.png" />
     <Content Include="Content\NAUT.css" />
     <Content Include="Content\nivo-slider.css" />
@@ -243,7 +241,6 @@
     <Content Include="Views\Account\ChangePasswordSuccess.cshtml" />
     <Content Include="Views\Account\LogOn.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_LogOnPartial.cshtml" />
@@ -266,13 +263,11 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Members\Members.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="ClassDiagram1.cd" />
     <Content Include="Views\Documents\Documents.cshtml" />
     <Content Include="Views\Events\Events.cshtml" />
     <Content Include="Views\Contact\Contact.cshtml" />
+    <None Include="Content\Documents\Bylaws.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

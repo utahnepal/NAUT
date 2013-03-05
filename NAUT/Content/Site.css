@@ -15,8 +15,8 @@ body {
 }
 
 a:link {
-    color: #034af3;
-    text-decoration: underline;
+    color: #FCFCFC;
+    text-decoration: blink;
 }
 
 a:visited {
@@ -29,7 +29,8 @@ a:hover {
 }
 
 a:active {
-    color: #12eb87;
+    /*color: #12eb87;*/
+    color:#FCFCFC;
 }
 
 p, ul {
@@ -78,7 +79,8 @@ h5, h6 {
 
 /* you can specify a greater or lesser percentage for the 
 page width. Or, you can specify an exact pixel width. */
-.page {
+.page 
+{
     width:990px;
     margin-left: auto;
     margin-right: auto;
